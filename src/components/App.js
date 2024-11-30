@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap";
-import { Route, Routes, BrowserRouter as Router } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import Meme from "./Meme";
 import NewMeme from "./NewMeme";
 import './Style.css'

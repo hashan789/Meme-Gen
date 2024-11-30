@@ -86,7 +86,7 @@ export default function Meme() {
            <div>
                <div className="center-meme skip" style={{marginTop:'50px'}}>
                  <Button onClick={memeIndex ? back : ''} style={{display:'block'}}>Back</Button>
-                 <Button onClick={forward} style={{display:'block'},{marginLeft:'20px'}}>Forward</Button>
+                 <Button onClick={forward} style={{display:'block', marginLeft:'20px'}}>Forward</Button>
               </div>
               {
                   captions.map((caption,index) => (
