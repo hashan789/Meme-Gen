@@ -3,6 +3,7 @@
 body{
     background-image: url('../meme.png');
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .center-meme{
@@ -22,10 +23,62 @@ body{
 }
 
 .box{
-    border-right: 1px solid black;
-    padding: 100px;
+    padding-block: 20px;
+    padding-left: 0px;
 }
 
 .font{
     font-family: 'Arvo', serif;
+}
+
+.heading-2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    color: purple;
+    font-weight: 700;
+}
+
+.p-2, .font{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.btn-2{
+    background-color: #0e12ee;
+    color: rgb(251, 254, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    transition: all 0.3s ease  ;
+}
+
+a.logo, a.logo:hover, a.logo:active, a.logo:focus, a.logo:visited{
+    text-decoration: none;
+    color: rgb(13, 13, 156);
+}
+
+.btn-2:hover, .btn-2{
+    background-color: #0509b3;
+    color: white;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.head-home{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer{
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    background-color: white;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
