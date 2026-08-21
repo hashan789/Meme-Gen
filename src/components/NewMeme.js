@@ -11,7 +11,7 @@ export default function NewMeme() {
     const url = new URLSearchParams(location.search).get('url')
 
     function goHomepage(){
-        history('/')
+        history('/meme')
     }
 
     function downloadImage(){
